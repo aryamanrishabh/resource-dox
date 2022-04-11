@@ -1,15 +1,9 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import { ArrowDown, Download } from 'ih-resources-beta'
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <div className="flex w-full items-center">
         <div className="flex w-1/2 flex-col items-center text-lg italic">
           <span>Download SVG</span>
