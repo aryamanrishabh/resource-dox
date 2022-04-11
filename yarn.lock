@@ -428,6 +428,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+ih-resources-beta@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ih-resources-beta/-/ih-resources-beta-1.0.1.tgz#fdcbc966c0fd88cc5dab2ad7494e798ce502df0b"
+  integrity sha512-LDFW+sn7eweCZIMGbCj99/B9OfxOClt2ZAGIbzyIhNZybE+er3prZ3kM4d97/2LDmuBOsf1Ha6gO4wXGSfjyWw==
+
 import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
