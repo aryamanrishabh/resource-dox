@@ -4,7 +4,7 @@
 
 @layer components {
   .card {
-    @apply grid place-items-center bg-white py-5;
+    @apply grid transform cursor-pointer place-items-center bg-white py-5 transition duration-100 ease-out hover:scale-125;
   }
   .asset {
     @apply h-8 w-8;

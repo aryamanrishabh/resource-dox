@@ -53,8 +53,8 @@ const Assets: NextPage = () => {
         </ol>
       </div>
       <div className="flex items-center justify-center px-48 font-mono text-indigo-800">
-        <div className="grid w-full grid-cols-4 gap-[2px] rounded-md border-2 border-slate-300 bg-slate-300">
-          <div className="card space-y-2">
+        <div className="grid w-full grid-cols-4 gap-[2px] rounded-2xl border-2 border-slate-300 bg-slate-300">
+          <div className="card space-y-2 rounded-tl-2xl">
             <ArrowLeft color="#7780A1" className="asset" />
             <span>ArrowLeft</span>
           </div>
@@ -66,7 +66,7 @@ const Assets: NextPage = () => {
             <ArrowRight color="#7780A1" className="asset" />
             <span>ArrowRight</span>
           </div>
-          <div className="card space-y-2">
+          <div className="card space-y-2 rounded-tr-2xl">
             <ArrowDown color="#7780A1" className="asset" />
             <span>ArrowDown</span>
           </div>
@@ -198,7 +198,7 @@ const Assets: NextPage = () => {
             <VerifiedTick bgColor="#7780A1" className="asset" />
             <span>VerifiedTick</span>
           </div>
-          <div className="card space-y-2">
+          <div className="card space-y-2 rounded-bl-2xl">
             <VolumeUp color="#7780A1" className="asset" />
             <span>VolumeUp</span>
           </div>
