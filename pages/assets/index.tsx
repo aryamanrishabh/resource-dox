@@ -43,7 +43,7 @@ import {
 const Assets: NextPage = () => {
   return (
     <div className="w-full space-y-8">
-      <div className="px-48 font-mono text-lg text-indigo-700">
+      <div className="font-mono text-sm text-indigo-700 lg:px-48 lg:text-lg">
         Every asset provides you with 4 props
         <ol className="ml-4 list-disc">
           <li>bgColor - control the background of the SVG</li>
@@ -52,7 +52,7 @@ const Assets: NextPage = () => {
           <li>onClick - provide console logs :')</li>
         </ol>
       </div>
-      <div className="flex items-center justify-center px-48 font-mono text-indigo-800">
+      <div className="flex items-center justify-center whitespace-nowrap font-mono text-[10px] text-indigo-800 lg:px-48 lg:text-base">
         <div className="grid w-full grid-cols-4 gap-[2px] rounded-2xl border-2 border-slate-300 bg-slate-300">
           <div className="card space-y-2 rounded-tl-2xl">
             <ArrowLeft color="#7780A1" className="asset" />
