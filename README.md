@@ -1,6 +1,6 @@
-# ih-resources-beta documentation
+# ChromaIcons documentation
 
-head over to https://ih-resources-beta.vercel.app/
+head over to https://chromaicons.vercel.app/
 
 ## Download the actual package
 
