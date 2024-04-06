@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <div className="flex w-full items-center gap-x-8 bg-gradient-to-b from-blue-300 to-indigo-400 px-8 py-4 font-mono text-white lg:gap-x-16">
       <Link href="/">
         <span className="cursor-pointer text-4xl font-bold tracking-wider">
-          ChromaIcons
+          ci
         </span>
       </Link>
       <Link href="/assets">
